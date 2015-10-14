@@ -4,8 +4,8 @@ I lifted these quotes from [mandatory.com](http://www.mandatory.com/2013/05/22/t
 
 ## Installation
 
-* Copy the fortune file, *arresteddevelopment*, into the fortune directory. On CentOS, the path is */usr/share/games/fortune/*.
-* Convert the plain text file to a .dat:
+1. Copy the fortune file, *arresteddevelopment*, into the fortune directory. On CentOS, the path is */usr/share/games/fortune/*.
+2. Convert the plain text file to a .dat:
 ```
-strfile #{fortune_file} #{fortune_file}.dat
+strfile /usr/share/games/fortune/arresteddevelopment /usr/share/games/fortune/arresteddevelopment.dat
 ```
